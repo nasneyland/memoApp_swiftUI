@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDDA7AE7298E570000CC718F /* swiftUImemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7AE6298E570000CC718F /* swiftUImemoApp.swift */; };
-		FDDA7AE9298E570000CC718F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7AE8298E570000CC718F /* ContentView.swift */; };
-		FDDA7AEB298E570100CC718F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDA7AEA298E570100CC718F /* Assets.xcassets */; };
-		FDDA7AEE298E570100CC718F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDA7AED298E570100CC718F /* Preview Assets.xcassets */; };
+		FDDA7B04298F320F00CC718F /* swiftUImemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B03298F320F00CC718F /* swiftUImemoApp.swift */; };
+		FDDA7B06298F320F00CC718F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B05298F320F00CC718F /* ContentView.swift */; };
+		FDDA7B08298F321200CC718F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDA7B07298F321200CC718F /* Assets.xcassets */; };
+		FDDA7B0B298F321200CC718F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDA7B0A298F321200CC718F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FDDA7AE3298E570000CC718F /* swiftUImemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUImemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDDA7AE6298E570000CC718F /* swiftUImemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUImemoApp.swift; sourceTree = "<group>"; };
-		FDDA7AE8298E570000CC718F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FDDA7AEA298E570100CC718F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDDA7AED298E570100CC718F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FDDA7AEF298E570100CC718F /* swiftUImemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftUImemo.entitlements; sourceTree = "<group>"; };
+		FDDA7B00298F320F00CC718F /* swiftUImemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUImemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDA7B03298F320F00CC718F /* swiftUImemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUImemoApp.swift; sourceTree = "<group>"; };
+		FDDA7B05298F320F00CC718F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDDA7B07298F321200CC718F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDA7B0A298F321200CC718F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FDDA7AE0298E56FF00CC718F /* Frameworks */ = {
+		FDDA7AFD298F320F00CC718F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FDDA7ADA298E56FF00CC718F = {
+		FDDA7AF7298F320F00CC718F = {
 			isa = PBXGroup;
 			children = (
-				FDDA7AE5298E570000CC718F /* swiftUImemo */,
-				FDDA7AE4298E570000CC718F /* Products */,
+				FDDA7B02298F320F00CC718F /* swiftUImemo */,
+				FDDA7B01298F320F00CC718F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FDDA7AE4298E570000CC718F /* Products */ = {
+		FDDA7B01298F320F00CC718F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDDA7AE3298E570000CC718F /* swiftUImemo.app */,
+				FDDA7B00298F320F00CC718F /* swiftUImemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDDA7AE5298E570000CC718F /* swiftUImemo */ = {
+		FDDA7B02298F320F00CC718F /* swiftUImemo */ = {
 			isa = PBXGroup;
 			children = (
-				FDDA7AE6298E570000CC718F /* swiftUImemoApp.swift */,
-				FDDA7AE8298E570000CC718F /* ContentView.swift */,
-				FDDA7AEA298E570100CC718F /* Assets.xcassets */,
-				FDDA7AEF298E570100CC718F /* swiftUImemo.entitlements */,
-				FDDA7AEC298E570100CC718F /* Preview Content */,
+				FDDA7B03298F320F00CC718F /* swiftUImemoApp.swift */,
+				FDDA7B05298F320F00CC718F /* ContentView.swift */,
+				FDDA7B07298F321200CC718F /* Assets.xcassets */,
+				FDDA7B09298F321200CC718F /* Preview Content */,
 			);
 			path = swiftUImemo;
 			sourceTree = "<group>";
 		};
-		FDDA7AEC298E570100CC718F /* Preview Content */ = {
+		FDDA7B09298F321200CC718F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FDDA7AED298E570100CC718F /* Preview Assets.xcassets */,
+				FDDA7B0A298F321200CC718F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDDA7AE2298E56FF00CC718F /* swiftUImemo */ = {
+		FDDA7AFF298F320F00CC718F /* swiftUImemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDDA7AF2298E570100CC718F /* Build configuration list for PBXNativeTarget "swiftUImemo" */;
+			buildConfigurationList = FDDA7B0E298F321200CC718F /* Build configuration list for PBXNativeTarget "swiftUImemo" */;
 			buildPhases = (
-				FDDA7ADF298E56FF00CC718F /* Sources */,
-				FDDA7AE0298E56FF00CC718F /* Frameworks */,
-				FDDA7AE1298E56FF00CC718F /* Resources */,
+				FDDA7AFC298F320F00CC718F /* Sources */,
+				FDDA7AFD298F320F00CC718F /* Frameworks */,
+				FDDA7AFE298F320F00CC718F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,25 +84,25 @@
 			);
 			name = swiftUImemo;
 			productName = swiftUImemo;
-			productReference = FDDA7AE3298E570000CC718F /* swiftUImemo.app */;
+			productReference = FDDA7B00298F320F00CC718F /* swiftUImemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FDDA7ADB298E56FF00CC718F /* Project object */ = {
+		FDDA7AF8298F320F00CC718F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					FDDA7AE2298E56FF00CC718F = {
+					FDDA7AFF298F320F00CC718F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = FDDA7ADE298E56FF00CC718F /* Build configuration list for PBXProject "swiftUImemo" */;
+			buildConfigurationList = FDDA7AFB298F320F00CC718F /* Build configuration list for PBXProject "swiftUImemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = FDDA7ADA298E56FF00CC718F;
-			productRefGroup = FDDA7AE4298E570000CC718F /* Products */;
+			mainGroup = FDDA7AF7298F320F00CC718F;
+			productRefGroup = FDDA7B01298F320F00CC718F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDDA7AE2298E56FF00CC718F /* swiftUImemo */,
+				FDDA7AFF298F320F00CC718F /* swiftUImemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FDDA7AE1298E56FF00CC718F /* Resources */ = {
+		FDDA7AFE298F320F00CC718F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDA7AEE298E570100CC718F /* Preview Assets.xcassets in Resources */,
-				FDDA7AEB298E570100CC718F /* Assets.xcassets in Resources */,
+				FDDA7B0B298F321200CC718F /* Preview Assets.xcassets in Resources */,
+				FDDA7B08298F321200CC718F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FDDA7ADF298E56FF00CC718F /* Sources */ = {
+		FDDA7AFC298F320F00CC718F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDA7AE9298E570000CC718F /* ContentView.swift in Sources */,
-				FDDA7AE7298E570000CC718F /* swiftUImemoApp.swift in Sources */,
+				FDDA7B06298F320F00CC718F /* ContentView.swift in Sources */,
+				FDDA7B04298F320F00CC718F /* swiftUImemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FDDA7AF0298E570100CC718F /* Debug */ = {
+		FDDA7B0C298F321200CC718F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,17 +196,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FDDA7AF1298E570100CC718F /* Release */ = {
+		FDDA7B0D298F321200CC718F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,91 +251,96 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FDDA7AF3298E570100CC718F /* Debug */ = {
+		FDDA7B0F298F321200CC718F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = swiftUImemo/swiftUImemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUImemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.najin.swiftUImemo.swiftUImemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.najin.swiftUImemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FDDA7AF4298E570100CC718F /* Release */ = {
+		FDDA7B10298F321200CC718F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = swiftUImemo/swiftUImemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUImemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.najin.swiftUImemo.swiftUImemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.najin.swiftUImemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDDA7ADE298E56FF00CC718F /* Build configuration list for PBXProject "swiftUImemo" */ = {
+		FDDA7AFB298F320F00CC718F /* Build configuration list for PBXProject "swiftUImemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDDA7AF0298E570100CC718F /* Debug */,
-				FDDA7AF1298E570100CC718F /* Release */,
+				FDDA7B0C298F321200CC718F /* Debug */,
+				FDDA7B0D298F321200CC718F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDDA7AF2298E570100CC718F /* Build configuration list for PBXNativeTarget "swiftUImemo" */ = {
+		FDDA7B0E298F321200CC718F /* Build configuration list for PBXNativeTarget "swiftUImemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDDA7AF3298E570100CC718F /* Debug */,
-				FDDA7AF4298E570100CC718F /* Release */,
+				FDDA7B0F298F321200CC718F /* Debug */,
+				FDDA7B10298F321200CC718F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FDDA7ADB298E56FF00CC718F /* Project object */;
+	rootObject = FDDA7AF8298F320F00CC718F /* Project object */;
 }
