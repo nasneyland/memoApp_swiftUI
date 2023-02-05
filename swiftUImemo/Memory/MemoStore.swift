@@ -7,6 +7,7 @@
 
 import Foundation
 
+// 모델 CRUD 선언하는 곳 
 class MemoStore: ObservableObject {
     @Published var list: [Memo]
     

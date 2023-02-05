@@ -15,6 +15,7 @@
 		FDDA7B3B298F3B6900CC718F /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B3A298F3B6900CC718F /* Memo.swift */; };
 		FDDA7B3D298F42DA00CC718F /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B3C298F42D900CC718F /* MemoStore.swift */; };
 		FDDA7B3F298F430800CC718F /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B3E298F430800CC718F /* MainListView.swift */; };
+		FDDA7B42298F533100CC718F /* AnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B41298F533100CC718F /* AnotherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FDDA7B3A298F3B6900CC718F /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		FDDA7B3C298F42D900CC718F /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		FDDA7B3E298F430800CC718F /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		FDDA7B41298F533100CC718F /* AnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +61,12 @@
 		FDDA7B24298F3B1400CC718F /* swiftUImemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDDA7B40298F531500CC718F /* View */,
 				FDDA7B39298F3B5B00CC718F /* Memory */,
 				FDDA7B38298F3B5400CC718F /* CoreData */,
-				FDDA7B25298F3B1400CC718F /* swiftUImemoApp.swift */,
-				FDDA7B3E298F430800CC718F /* MainListView.swift */,
-				FDDA7B29298F3B1600CC718F /* Assets.xcassets */,
-				FDDA7B2E298F3B1600CC718F /* Persistence.swift */,
-				FDDA7B30298F3B1600CC718F /* swiftUImemo.xcdatamodeld */,
 				FDDA7B2B298F3B1600CC718F /* Preview Content */,
+				FDDA7B25298F3B1400CC718F /* swiftUImemoApp.swift */,
+				FDDA7B29298F3B1600CC718F /* Assets.xcassets */,
 			);
 			path = swiftUImemo;
 			sourceTree = "<group>";
@@ -82,6 +82,8 @@
 		FDDA7B38298F3B5400CC718F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				FDDA7B2E298F3B1600CC718F /* Persistence.swift */,
+				FDDA7B30298F3B1600CC718F /* swiftUImemo.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -93,6 +95,15 @@
 				FDDA7B3C298F42D900CC718F /* MemoStore.swift */,
 			);
 			path = Memory;
+			sourceTree = "<group>";
+		};
+		FDDA7B40298F531500CC718F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA7B3E298F430800CC718F /* MainListView.swift */,
+				FDDA7B41298F533100CC718F /* AnotherView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				FDDA7B2F298F3B1600CC718F /* Persistence.swift in Sources */,
 				FDDA7B3F298F430800CC718F /* MainListView.swift in Sources */,
 				FDDA7B32298F3B1600CC718F /* swiftUImemo.xcdatamodeld in Sources */,
+				FDDA7B42298F533100CC718F /* AnotherView.swift in Sources */,
 				FDDA7B26298F3B1400CC718F /* swiftUImemoApp.swift in Sources */,
 				FDDA7B3D298F42DA00CC718F /* MemoStore.swift in Sources */,
 				FDDA7B3B298F3B6900CC718F /* Memo.swift in Sources */,
