@@ -16,6 +16,7 @@
 		FDDA7B3D298F42DA00CC718F /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B3C298F42D900CC718F /* MemoStore.swift */; };
 		FDDA7B3F298F430800CC718F /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B3E298F430800CC718F /* MainListView.swift */; };
 		FDDA7B44298F592900CC718F /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B43298F592900CC718F /* MemoCell.swift */; };
+		FDDA7B46298F5A5B00CC718F /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA7B45298F5A5B00CC718F /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FDDA7B3C298F42D900CC718F /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		FDDA7B3E298F430800CC718F /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 		FDDA7B43298F592900CC718F /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		FDDA7B45298F5A5B00CC718F /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,19 @@
 		FDDA7B40298F531500CC718F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FDDA7B47298F5A6500CC718F /* SubView */,
 				FDDA7B3E298F430800CC718F /* MainListView.swift */,
-				FDDA7B43298F592900CC718F /* MemoCell.swift */,
+				FDDA7B45298F5A5B00CC718F /* ComposeView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FDDA7B47298F5A6500CC718F /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA7B43298F592900CC718F /* MemoCell.swift */,
+			);
+			path = SubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				FDDA7B32298F3B1600CC718F /* swiftUImemo.xcdatamodeld in Sources */,
 				FDDA7B26298F3B1400CC718F /* swiftUImemoApp.swift in Sources */,
 				FDDA7B3D298F42DA00CC718F /* MemoStore.swift in Sources */,
+				FDDA7B46298F5A5B00CC718F /* ComposeView.swift in Sources */,
 				FDDA7B3B298F3B6900CC718F /* Memo.swift in Sources */,
 				FDDA7B44298F592900CC718F /* MemoCell.swift in Sources */,
 			);
