@@ -17,14 +17,7 @@ struct MainListView: View {
         NavigationView {
             // 테이블 선언 및 데이터 바인딩
             List(store.list) { memo in
-                VStack(alignment: .leading) {
-                    Text(memo.content)
-                        .font(.body)
-                        .lineLimit(1)
-                    Text(memo.insertDate, style: .date)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
+                MemoCell(memo: memo)
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")
@@ -38,3 +31,4 @@ struct MainListView_Previews: PreviewProvider {
         MainListView().environmentObject(MemoStore())
     }
 }
+
