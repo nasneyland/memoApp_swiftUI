@@ -19,7 +19,11 @@ struct MainListView: View {
         NavigationView {
             // 테이블 선언 및 데이터 바인딩
             List(store.list) { memo in
-                MemoCell(memo: memo)
+                NavigationLink {
+                    DetailView(memo: memo)
+                } label: {
+                    MemoCell(memo: memo)
+                }
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")
@@ -34,7 +38,6 @@ struct MainListView: View {
             .sheet(isPresented: $showComposer) {
                 ComposeView() // 뷰 카드모달 형태로 띄어주기
             }
-
         }
     }
 }
