@@ -17,13 +17,16 @@ struct MainListView: View {
         
         // Shift + Command + A 눌러서 Embed 가능 (상위 속성 선언)
         NavigationView {
-            // 테이블 선언 및 데이터 바인딩
-            List(store.list) { memo in
-                NavigationLink {
-                    DetailView(memo: memo)
-                } label: {
-                    MemoCell(memo: memo)
+            List {
+                // 테이블 선언 및 데이터 바인딩
+                ForEach(store.list) { memo in
+                    NavigationLink {
+                        DetailView(memo: memo)
+                    } label: {
+                        MemoCell(memo: memo)
+                    }
                 }
+                .onDelete(perform: store.delete)
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")
