@@ -1,5 +1,5 @@
 //
-//  MainListView.swift
+//  MemoListView.swift
 //  swiftUImemo
 //
 //  Created by najin on 2023/02/05.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainListView: View {
+struct MemoListView: View {
     //@EnvironmentObject : 공유데이터 목록 중 데이터저장소 불러오기
     @EnvironmentObject var store: MemoStore
     
@@ -45,10 +45,10 @@ struct MainListView: View {
     }
 }
 
-struct MainListView_Previews: PreviewProvider {
+struct MemoListView_Previews: PreviewProvider {
     static var previews: some View {
         //데이터저장소 선언
-        MainListView().environmentObject(MemoStore())
+        MemoListView().environmentObject(MemoStore())
     }
 }
 

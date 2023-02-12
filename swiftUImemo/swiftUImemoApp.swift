@@ -14,7 +14,7 @@ struct swiftUImemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainListView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(store)
         }
